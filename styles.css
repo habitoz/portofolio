@@ -1,12 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
 :root {
-   --main-bg-color:'#E5E5E5';
-   --menu-bg-color:'#6070FF';
-   --header-text-color:'#172B4D';
-   --text-color:'#344563';
-   --icon-color:'#505F79';
-   --primary-color:'#6070FF';
+   --main-bg-color:#E5E5E5;
+   --menu-bg-color:#6070FF;
+   --header-text-color:#172B4D;
+   --text-color:#344563;
+   --icon-color:#505F79;
+   --primary-color:#6070FF;
 }
 
 * {
@@ -41,11 +41,13 @@ main {
 .bio {
     height: 718px;
     width: 100%;
+    background-color: #fff;
     background-image: url('./assets/images/header-bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 24px;
+    padding: 150px 24px;
     background-origin: 0 0;
+    border-bottom-left-radius: 20%;
 }
 .bio-header {
     font-family: 'Poppins';
@@ -110,11 +112,25 @@ main {
     .menu-icon {
         display: block;
     }
-    .menu-icon:focus .menu-items {
+    .menu-icon:hover .menu-items {
         background-color: var(--menu-bg-color);
+        display: block;
     }
     .menu-items {
         display: none;
+    }
+    .menu:target {
+        position: absolute;
+        height: 100vh;
+        background-color: var(--menu-bg-color);
+        color: #fff;
+    }
+    .menu:target .menu-items a {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 44px;
     }
 
 }
