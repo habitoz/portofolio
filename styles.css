@@ -1,0 +1,134 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+:root {
+   --main-bg-color:'#E5E5E5';
+   --menu-bg-color:'#6070FF';
+   --header-text-color:'#172B4D';
+   --text-color:'#344563';
+   --icon-color:'#505F79';
+   --primary-color:'#6070FF';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+    background-color: var(--main-bg-color);
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 24px;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+main {
+    overflow-y: auto;
+}
+.logo {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--primary-color) !important;
+}
+.bio {
+    height: 718px;
+    width: 100%;
+    background-image: url('./assets/images/header-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 24px;
+    background-origin: 0 0;
+}
+.bio-header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--header-text-color);
+}
+.bio-info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+    color: var(--text-color);
+}
+.link-icons{
+    width: 20px;
+    height: 20px;
+}
+.menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-items a {
+    text-decoration: none;
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 10px;
+    padding: 10px 12px;
+    color: var(--text-color);
+}
+.link {
+    margin-top: 12px;
+}
+.link-text {
+    font-family: 'Poppins';
+    font-style: normal;  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+
+}
+.profile-links {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.profile-links img {
+    display: block;
+}
+@media screen and (min-width: 375px) {
+    .menu-icon {
+        display: block;
+    }
+    .menu-icon:focus .menu-items {
+        background-color: var(--menu-bg-color);
+    }
+    .menu-items {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .menu-icon {
+        display:none;
+    }
+    .menu-items {
+        display: flex;
+        
+    }
+    .bio {
+        padding: 250px 260px;
+    }
+
+}
