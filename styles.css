@@ -1,18 +1,18 @@
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
 :root {
-   --main-bg-color:#E5E5E5;
-   --menu-bg-color:#6070FF;
-   --header-text-color:#172B4D;
-   --text-color:#344563;
-   --icon-color:#505F79;
-   --primary-color:#6070FF;
+     --main-bg-color:#E5E5E5;
+     --menu-bg-color:#6070FF;
+     --header-text-color:#172B4D;
+     --text-color:#344563;
+     --icon-color:#505F79;
+     --primary-color: #6070FF;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
 }
 body {
     background-color: var(--main-bg-color);
