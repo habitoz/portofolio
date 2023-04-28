@@ -35,6 +35,7 @@ main {
 
 .logo {
   font-family: 'Poppins', sans-serif;
+  text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -50,7 +51,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 150px 24px;
-  background-origin: 0 0;
+  background-origin: border-box;
   border-bottom-left-radius: 20%;
 }
 
@@ -125,6 +126,7 @@ main {
 .profile-links {
   margin-top: 14px;
   display: flex;
+  list-style: none;
   align-items: center;
   gap: 12px;
 }
