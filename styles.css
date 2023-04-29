@@ -138,6 +138,8 @@ main {
 
 .works {
   padding: 24px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .works .work {
@@ -245,6 +247,7 @@ main {
   background: #fff;
   padding: 114px 24px;
   border-top-right-radius: 15%;
+  margin-top: 60px;
 }
 
 .languages {
