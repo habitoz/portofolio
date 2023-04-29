@@ -243,6 +243,11 @@ main {
   background-color: #fff;
 }
 
+.work-link:hover,
+.work-link:active {
+  background-color: #ebebff;
+}
+
 .about {
   background: #fff;
   padding: 114px 24px;
@@ -308,18 +313,21 @@ main {
 }
 
 .skills li {
+  padding: 23px 12px;
+}
+
+.flex-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #dfe1e6;
-  padding: 23px 12px;
 }
 
-.skills li img {
+.skills li > img {
   margin-right: 28px;
 }
 
-.skills li p {
+.skills li > p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
