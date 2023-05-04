@@ -243,9 +243,14 @@ main {
   background-color: #fff;
 }
 
-.work-link:hover,
+.work-link:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
 .work-link:active {
-  background-color: #ebebff;
+  background-color: #2230d2;
+  color: #fff;
 }
 
 .about {
