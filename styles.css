@@ -340,6 +340,60 @@ main {
   color: var(--header-text-color);
 }
 
+.contact {
+  background-image: url('./assets/images/contact-from-bg.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 45px 24px;
+  background-position-x: right;
+  background-origin: border-box;
+  background-color: var(--primary-color);
+  border-top-left-radius: 15%;
+}
+.contact-info {
+  margin-top: 40px;
+  text-align: center;
+}
+.contact-info h1 {
+  font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #fff;
+}
+.contact-info p {
+  font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #fff;
+margin-top: 12px;
+}
+.contact-form {
+  margin-top: 35px;
+}
+.contact-form ul {
+  list-style: none;
+}
+.contact-form ul li {
+ margin-top: 20px;
+ width: 100%;
+ overflow-x: hidden;
+}
+.form-input {
+  padding: 15px 16px;
+  font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+border-radius: 10px;
+color: var(--header-text-color);
+border: 1px solid #CFD8DC;
+width: 100%;
+}
 @media screen and (min-width: 375px) {
   .menu-icon {
     display: block;
