@@ -23,8 +23,6 @@
 
 # 📖 [portofolio] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[portofolio]** is my personal portofolio.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -69,12 +67,12 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
-
+Clone this repository to your desired folder: <br/>
+cd to the folder <br/>
 
 ### Install
 
-Install this project with:
+Install this project with: <br/>
 npm i
 
 ### Usage
@@ -119,7 +117,8 @@ If you like this project contact me on the above provided links.
 I would like to thank my coding partner.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## 📝 License <a name="license"></a>
+
+##  📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
