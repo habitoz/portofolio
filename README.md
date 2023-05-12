@@ -7,6 +7,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -50,11 +51,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Key Features <a name="key-features"></a>
 
+- **mobile first design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -68,8 +69,12 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder: <br/>
-cd to the folder <br/>
 
+  <strong>git clone https://github.com/habitoz/portofolio </strong> <br/>
+
+go to the folder <br/>
+
+<strong> cd  portofolio</strong>
 ### Install
 
 Install this project with: <br/>
