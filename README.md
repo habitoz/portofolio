@@ -86,10 +86,15 @@ To run the project, open index.html
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Haben Mehari**
 
 - GitHub: [@habitoz](https://github.com/habitoz)
 - Linkedin: [@habitoz](https://www.linkedin.com/in/haben-mehari-593531140)
+
+👤 **Asum Victor**
+
+- GitHub: [@AsumVictor](https://github.com/AsumVictor)
+- Linkedin: [@AsumVictordev](https://www.linkedin.com/in/Asumvictordev)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
