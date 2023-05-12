@@ -27,6 +27,7 @@ header {
   background-color: transparent;
   position: fixed;
   width: 100%;
+  top: 0;
 }
 
 main {
@@ -340,6 +341,10 @@ main {
   color: var(--header-text-color);
 }
 
+.contact-wrapper {
+  background-color:#fff;
+}
+
 .contact {
   background-image: url('./assets/images/contact-from-bg.svg');
   background-repeat: no-repeat;
@@ -356,6 +361,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .contact-me-info h1 {
@@ -463,6 +469,12 @@ main {
 }
 
 @media screen and (min-width: 768px) {
+  header {
+    background-color: #fff;
+  }
+  main {
+    margin-top: 52px;
+  }
   .menu-icon {
     display: none;
   }
@@ -476,6 +488,83 @@ main {
   }
 
   .bio {
-    padding: 250px 260px;
+    width: 100%;
+    background-image: url('./assets/images/header-bg-desktop.svg');
+    padding: 200px 260px;
+  }
+  .works {
+    display: block;
+  }
+  .work-image {
+    width: 100%;
+    height: 100%;
+  }
+  .works .work {
+    display: grid;
+    width:90%;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px auto 0px;
+  }
+  .works .work .work-image-container{
+    order: 1;
+  }
+  .works .work .work-description-container{
+    order:2;
+  }
+  .works .work:nth-of-type(even) .work-description-container{
+    order:1;
+  }
+  .works .work:nth-of-type(even) .work-image-container{
+    order:2;
+  }
+ 
+  .work-description-container {
+    padding: 24px;
+  }
+  .work-title {
+    margin-top: 0px;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 143px;
+   
+  }
+ .skills {
+    margin-top: 0px;
+  }
+  .skills ~ li {
+    padding: 23px 12px;
+  }
+  .languages {
+    margin-top: 0px;
+  }
+  .languages-list {
+    flex-direction: row;
+  }
+  .languages-list li{
+    flex-direction: column;
+    align-items: start;
+    padding: 9px 15px;
+
+  }
+  .contact {
+    background-image: url('./assets/images/contact-form-bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .contact-me-info-text {
+    padding: 5px 0px;
+  }
+  .contact-form-wrapper {
+    width: 45%;
+    margin: 0px auto;
+  }
+  .contact-form {
+    margin: 10px 60px;
+  }
+  .submit-button {
+    display: block;
+    margin: 15px auto 0px;
   }
 }
