@@ -7,6 +7,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -22,8 +23,6 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [portofolio] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
 
 **[portofolio]** is my personal portofolio.
 
@@ -52,11 +51,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Key Features <a name="key-features"></a>
 
+- **mobile first design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -69,12 +68,16 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: <br/>
 
+  <strong>git clone https://github.com/habitoz/portofolio </strong> <br/>
 
+go to the folder <br/>
+
+<strong> cd  portofolio</strong>
 ### Install
 
-Install this project with:
+Install this project with: <br/>
 npm i
 
 ### Usage
@@ -86,10 +89,15 @@ To run the project, open index.html
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Haben Mehari**
 
 - GitHub: [@habitoz](https://github.com/habitoz)
 - Linkedin: [@habitoz](https://www.linkedin.com/in/haben-mehari-593531140)
+
+👤 **Asum Victor**
+
+- GitHub: [@AsumVictor](https://github.com/AsumVictor)
+- Linkedin: [@AsumVictordev](https://www.linkedin.com/in/Asumvictordev)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -114,7 +122,8 @@ If you like this project contact me on the above provided links.
 I would like to thank my coding partner.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## 📝 License <a name="license"></a>
+
+##  📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
