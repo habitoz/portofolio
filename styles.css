@@ -42,6 +42,7 @@ main {
   line-height: 20px;
   text-align: center;
   color: var(--primary-color) !important;
+  animation: rotateLogo 1s linear 0s 1;
 }
 
 .bio {
@@ -242,11 +243,13 @@ main {
   border-radius: 8px;
   border: 1px solid #396df2;
   background-color: #fff;
+  transition: all 300ms ease-in;
 }
 
 .work-link:hover {
   background-color: var(--primary-color);
   color: #fff;
+  transform: scale(1.1);
 }
 
 .work-link:active {
@@ -465,6 +468,16 @@ main {
     font-size: 32px;
     line-height: 44px;
     color: #fff;
+  }
+}
+
+@keyframes rotateLogo {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 }
 
