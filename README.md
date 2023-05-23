@@ -104,6 +104,12 @@ To run the project, open index.html
 - GitHub: [@AsumVictor](https://github.com/AsumVictor)
 - Linkedin: [@AsumVictordev](https://www.linkedin.com/in/Asumvictordev)
 
+👤 **Ojwang Briton**
+
+- GitHub: [@Eccb7](https://github.com/Eccb7)
+- Twitter: [@briton_otieno4](https://twitter.com/briton_otieno4)
+- LinkedIn: [briton-otieno-ba6591244](https://linkedin.com/in/briton-otieno-ba6591244)
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[desktop-version]**

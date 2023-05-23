@@ -423,6 +423,13 @@ main {
     display: none;
   }
 
+  .show-menu .menu-items {
+    display: flex !important;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 16px;
+  }
+
   .menu-icon:hover .menu-items {
     background-color: var(--menu-bg-color);
     display: block;
@@ -432,7 +439,7 @@ main {
     display: none;
   }
 
-  .menu:target {
+  .show-menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -446,22 +453,15 @@ main {
     mix-blend-mode: multiply;
   }
 
-  .menu:target .menu-close {
+  .show-menu .menu-close {
     display: block;
   }
 
-  .menu:target .menu-icon {
+  .show-menu .menu-icon {
     display: none !important;
   }
 
-  .menu:target .menu-items {
-    display: flex !important;
-    flex-direction: column;
-    align-items: start;
-    margin-top: 16px;
-  }
-
-  .menu:target .menu-items a {
+  .show-menu .menu-items a {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
