@@ -3,7 +3,6 @@ const menu = document.getElementById('menu');
 const menuClose= document.getElementById('menu-close');
 
 const showMenu=()=>{
-    console.log('show menu');
   menu.classList.add('show-menu')
 }
 const hideMenu=()=>{
