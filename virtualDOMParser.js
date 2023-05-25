@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const parseVirtualDom = (virtualDom, parentElement = null) => {
   const {
     type, innerText, events, child, ...otherAttributes
@@ -8,9 +9,9 @@ const parseVirtualDom = (virtualDom, parentElement = null) => {
     delete otherAttributes.class;
   }
   if (otherAttributes) {
-    for (const attribute in otherAttributes) {
+    Object.keys(otherAttributes).forEach((attribute) => {
       domElement.setAttribute(attribute, otherAttributes[attribute]);
-    }
+    });
   }
   if (events && events.length) {
     events.forEach((item) => domElement.addEventListener(item.event, item.handler));

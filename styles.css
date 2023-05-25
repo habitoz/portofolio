@@ -679,11 +679,9 @@ main {
     }
     .project-image {
       width: 100%;
-      height: 80%;
-    }
-    .project-image img {
-      width: 100%;
-      height: 100%;
+      height: 400px;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
     .modal-work-separator {
       margin-top: 15px;

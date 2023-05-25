@@ -1,4 +1,6 @@
+/* global parseVirtualDom, projects */
 const showModal = (index) => {
+  // eslint-disable-next-line no-use-before-define
   document.body.appendChild(parseVirtualDom(ModalVirtualDom(projects[index])));
 };
 const closeModal = () => {
@@ -75,12 +77,7 @@ const ModalVirtualDom = (data) => (
           {
             type: 'div',
             class: 'project-image',
-            child: [
-              {
-                type: 'img',
-                src: data.image,
-              },
-            ],
+            style: `background-image : url(${data.image});`,
           },
           {
             type: 'div',
@@ -164,6 +161,7 @@ const ModalVirtualDom = (data) => (
     ],
   }
 );
+/* eslint-disable no-unused-vars */
 const WorkVirtualDom = (data) => (
   {
     type: 'div',
