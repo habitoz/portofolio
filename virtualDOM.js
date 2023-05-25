@@ -135,7 +135,7 @@ const ModalVirtualDom = (data) => (
                           },
                           {
                             type: 'img',
-                            src: './assets/images/github.svg',
+                            src: './assets/images/live-icon.svg',
                           },
                         ],
                       },
@@ -149,7 +149,7 @@ const ModalVirtualDom = (data) => (
                           },
                           {
                             type: 'img',
-                            src: './assets/images/github.svg',
+                            src: './assets/images/github-icon.svg',
                           },
                         ],
                       },
