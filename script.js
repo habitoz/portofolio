@@ -15,7 +15,7 @@ const hideMenu = () => {
 const showFormValidationError = () => {
   const errorElement = document.createElement('p');
   errorElement.innerText = 'email validation failed. the form is not sent.';
-  errorElement.style.marginTop = '10px';
+  errorElement.style.marginTop = '12px';
   errorElement.style.color = 'red';
   errorElement.style.textAlign = 'center';
   contactForm.appendChild(errorElement);
