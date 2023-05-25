@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/poppins');
+@import url("https://fonts.cdnfonts.com/css/poppins");
 
 :root {
   --main-bg-color: #f7f7f9;
@@ -35,7 +35,7 @@ main {
 }
 
 .logo {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
@@ -49,7 +49,7 @@ main {
   height: 718px;
   width: 100%;
   background-color: #fff;
-  background-image: url('./assets/images/header-bg.svg');
+  background-image: url("./assets/images/header-bg.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -59,7 +59,7 @@ main {
 }
 
 .bio-header {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -68,7 +68,7 @@ main {
 }
 
 .bio-info {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -103,7 +103,7 @@ main {
 .menu-items a {
   text-decoration: none;
   display: block;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -118,7 +118,7 @@ main {
 }
 
 .link-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -153,7 +153,7 @@ main {
 }
 
 .work-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -170,7 +170,7 @@ main {
 }
 
 .work-info-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -186,7 +186,7 @@ main {
 }
 
 .work-info-others {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -195,7 +195,7 @@ main {
 }
 
 .work-description {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -221,7 +221,7 @@ main {
 .stack a {
   text-decoration: none;
   color: var(--primary-color);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -230,7 +230,7 @@ main {
 }
 
 .work-link {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -238,6 +238,7 @@ main {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
+  width: 150px;
   padding: 12px;
   margin: 24px 0;
   border-radius: 8px;
@@ -277,7 +278,7 @@ main {
 }
 
 .languages p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -303,7 +304,7 @@ main {
 }
 
 .languages-list li p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -336,7 +337,7 @@ main {
 }
 
 .skills li > p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -349,7 +350,7 @@ main {
 }
 
 .contact {
-  background-image: url('./assets/images/contact-from-bg.svg');
+  background-image: url("./assets/images/contact-from-bg.svg");
   background-repeat: no-repeat;
   background-size: contain;
   padding: 45px 24px;
@@ -368,7 +369,7 @@ main {
 }
 
 .contact-me-info h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -377,7 +378,7 @@ main {
 }
 
 .contact-me-info-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -403,7 +404,7 @@ main {
 
 .form-input {
   padding: 15px 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -417,7 +418,7 @@ main {
 .modal-wrapper {
   position: fixed;
   top: 0px;
-  background-color: #C1C7D0;
+  background-color: #c1c7d0;
   width: 100vw;
   height: 100%;
   padding: 30px 16px;
@@ -428,7 +429,7 @@ main {
   height: 100%;
   padding: 18px 16px;
   background: #fff;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   overflow-y: auto;
 }
@@ -448,16 +449,16 @@ main {
   cursor: pointer;
 }
 .modal-body {
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-margin: 12px 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 12px 0px;
 }
 .modal-work-separator {
   margin-top: 20px;
-  border-bottom: 1px solid #EBECF0;
+  border-bottom: 1px solid #ebecf0;
 }
 .work-detail-link-container {
   display: grid;
@@ -518,165 +519,174 @@ margin: 12px 0px;
   }
 
   .show-menu .menu-items a {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
     color: #fff;
   }
-}
-
-@keyframes rotateLogo {
-  from {
-    transform: none;
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media screen and (min-width: 768px) {
-  header {
-    background-color: #fff;
-  }
-
-  main {
-    margin-top: 52px;
-  }
-
-  .menu-icon {
-    display: none;
-  }
-
-  .menu {
-    display: block;
-  }
-
-  .menu-items {
-    display: flex;
-  }
-
-  .bio {
-    width: 100%;
-    background-image: url('./assets/images/header-bg-desktop.svg');
-    padding: 200px 260px;
-  }
-
-  .works {
-    display: block;
-  }
-
   .work-image {
     width: 100%;
-    height: 100%;
   }
 
-  .works .work {
-    display: grid;
-    width: 90%;
-    grid-template-columns: 1fr 1fr;
-    margin: 100px auto 0;
-  }
-
-  .work-description-container {
-    padding: 24px;
-  }
-
-  .works .work .work-image-container {
-    order: 1;
-  }
-
-  .works .work .work-description-container {
-    order: 2;
-  }
-
-  .works .work:nth-of-type(even) .work-description-container {
-    order: 1;
-  }
-
-  .works .work:nth-of-type(even) .work-image-container {
-    order: 2;
-  }
-
-  .work-title {
-    margin-top: 0;
-  }
-
-  .about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 100px 143px;
-  }
-
-  .skills {
-    margin-top: 0;
-  }
-
-  .skills ~ li {
-    padding: 23px 12px;
-  }
-
-  .languages {
-    margin-top: 0;
-  }
-
-  .languages-list {
-    flex-direction: row;
-  }
-
-  .languages-list li {
-    flex-direction: column;
-    align-items: start;
-    padding: 9px 15px;
-  }
-
-  .contact {
-    background-image: url('./assets/images/contact-form-bg-desktop.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .contact-me-info-text {
-    padding: 5px 0;
-  }
-
-  .contact-form-wrapper {
-    width: 45%;
-    margin: 0 auto;
-  }
-
-  .contact-form {
-    margin: 10px 60px;
-  }
-
-  .submit-button {
-    display: block;
-    margin: 15px auto 0;
-  }
-
-  .modal-wrapper {
-    padding: 20px 100px;
-  }
-  .modal-body-container {
-    margin-top: 20px;
-    display:flex;
-    gap:20px;
-    justify-content: stretch;
-  }
-  .modal-body {
-    width: 67%;
-  }
   .project-image {
     width: 100%;
-    height: 280px;
   }
   .project-image img {
     width: 100%;
-    height: 100%;
   }
-  .modal-work-separator {
-    margin-top: 15px;
+
+  @keyframes rotateLogo {
+    from {
+      transform: none;
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    header {
+      background-color: #fff;
+    }
+
+    main {
+      margin-top: 52px;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    .menu {
+      display: block;
+    }
+
+    .menu-items {
+      display: flex;
+    }
+
+    .bio {
+      width: 100%;
+      background-image: url("./assets/images/header-bg-desktop.svg");
+      padding: 200px 260px;
+    }
+
+    .works {
+      display: block;
+    }
+
+    .work-image {
+      width: 100%;
+    }
+
+    .works .work {
+      display: grid;
+      width: 90%;
+      grid-template-columns: 1fr 1fr;
+      margin: 100px auto 0;
+    }
+
+    .work-description-container {
+      padding: 24px;
+    }
+
+    .works .work .work-image-container {
+      order: 1;
+    }
+
+    .works .work .work-description-container {
+      order: 2;
+    }
+
+    .works .work:nth-of-type(even) .work-description-container {
+      order: 1;
+    }
+
+    .works .work:nth-of-type(even) .work-image-container {
+      order: 2;
+    }
+
+    .work-title {
+      margin-top: 0;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 100px 143px;
+    }
+
+    .skills {
+      margin-top: 0;
+    }
+
+    .skills ~ li {
+      padding: 23px 12px;
+    }
+
+    .languages {
+      margin-top: 0;
+    }
+
+    .languages-list {
+      flex-direction: row;
+    }
+
+    .languages-list li {
+      flex-direction: column;
+      align-items: start;
+      padding: 9px 15px;
+    }
+
+    .contact {
+      background-image: url("./assets/images/contact-form-bg-desktop.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .contact-me-info-text {
+      padding: 5px 0;
+    }
+
+    .contact-form-wrapper {
+      width: 45%;
+      margin: 0 auto;
+    }
+
+    .contact-form {
+      margin: 10px 60px;
+    }
+
+    .submit-button {
+      display: block;
+      margin: 15px auto 0;
+    }
+
+    .modal-wrapper {
+      padding: 20px 100px;
+    }
+    .modal-body-container {
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+      justify-content: stretch;
+    }
+    .modal-body {
+      width: 67%;
+    }
+    .project-image {
+      width: 100%;
+      height: 80%;
+    }
+    .project-image img {
+      width: 100%;
+      height: 100%;
+    }
+    .modal-work-separator {
+      margin-top: 15px;
+    }
   }
 }
