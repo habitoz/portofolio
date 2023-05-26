@@ -45,6 +45,8 @@ humberger.addEventListener('click', showMenu);
 menuClose.addEventListener('click', hideMenu);
 menuItemsNode.forEach((menuItem) => menuItem.addEventListener('click', hideMenu));
 contactForm.addEventListener('submit', formValidation);
+
+/* global projects, parseVirtualDom, WorkVirtualDom */
 projects.forEach((project, index) => (
   worksSection.appendChild(parseVirtualDom(WorkVirtualDom({ ...project, index })))
 ));
