@@ -5,6 +5,7 @@ const menuItemsNode = document.getElementById('menu-items').childNodes;
 const worksSection = document.getElementById('works');
 const contactForm = document.getElementById('contact-form');
 const emailInput = document.getElementById('email');
+const formInputs = document.querySelectorAll('.form-input');
 
 const showMenu = () => {
   menu.classList.add('show-menu');
@@ -12,6 +13,18 @@ const showMenu = () => {
 const hideMenu = () => {
   menu.classList.remove('show-menu');
 };
+
+const handleInputChange = async (event) => {
+  const formData = await localStorage.getItem('formData');
+  if (formData) {
+    const data = { ...(JSON.parse(formData)), [event.target.name]: event.target.value };
+    await localStorage.setItem('formData', JSON.stringify(data));
+  } else {
+    const data = { [event.target.name]: event.target.value };
+    await localStorage.setItem('formData', JSON.stringify(data));
+  }
+};
+
 const showFormValidationError = () => {
   const errorElement = document.createElement('p');
   errorElement.innerText = 'email validation failed. the form is not sent.';
@@ -36,3 +49,14 @@ contactForm.addEventListener('submit', formValidation);
 projects.forEach((project, index) => (
   worksSection.appendChild(parseVirtualDom(WorkVirtualDom({ ...project, index })))
 ));
+
+//
+const existingData = localStorage.getItem('formData');
+
+formInputs.forEach((formInput) => {
+  formInput.addEventListener('input', handleInputChange);
+  if (existingData) {
+    const data = JSON.parse(existingData);
+    formInput.value = data[formInput.name] || '';
+  }
+});
